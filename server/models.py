@@ -21,3 +21,8 @@ class Animal(db.Model):
     __tablename__ = 'animals'
 
     id = db.Column(db.Integer, primary_key=True)
+    Name= db.Column(db.String)
+    species=db.Column(db.String)
+    Zookeeper=db.Column(db.String)
+    Enclosure=db.Column(db.String)
+    
